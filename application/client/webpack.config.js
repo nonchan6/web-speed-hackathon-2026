@@ -121,10 +121,10 @@ const config = {
   },
   optimization: {
     minimize: true,
-    concatenateModules: false,
-    usedExports: false,
-    providedExports: false,
-    sideEffects: false,
+    concatenateModules: true,
+    usedExports: true,
+    providedExports: true,
+    sideEffects: true,
   },
   cache: false,
   ignoreWarnings: [
